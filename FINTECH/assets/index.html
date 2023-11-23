@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINTECH</title>
+    <link rel="stylesheet" href="./css/syles.css">
+
+</head>
+<body>
+    <h1>FINTECH</h1>
+    <h2>Bem-Vindo ao FINTECH! O seu aplicativo de controle financeiro</h2>
+    <h3>Realize seu login</h3>
+
+    <div class="box-item">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" id="email" name="email" class="form-control" required placeholder="Ex: seuemail@email.com">
+</div>
+
+<div class="box-item">
+      <label for="senha" class="form-label">Senha:</label>
+      <input type="password" id="senha" name="senha" class="form-control" required minlength="5" maxlength="15" placeholder="Ex: 123456">
+</div>
+
+    <div class="box-item">
+      <button class="form-btn">Entrar</button>
+   </div>
+   <div class="box-item">
+      <button class="form-btn">Criar</button>
+   </div>
+
+    </ul>
+        <h1>Cadastro</h1>
+        <h2>Informe os dados da conta</h2>
+
+        <form name="dados" id="dados" method="post" action="" class="box-form">
+           <div class="box-item">
+                 <label for="nome" class="form-label">Nome:</label>
+                 <input type="text" id="nome" name="nome" class="form-control"
+                 required minlength="10" maxlength="50" placeholder="Ex: Fulano de Tal" >
+           </div>
+
+           <div class="box-item">
+                 <label for="email" class="form-label">Email:</label>
+                 <input type="email" id="email" name="email" class="form-control" required placeholder="Ex: seuemail@email.com">
+           </div>
+
+           <div class="box-item">
+                 <label for="senha" class="form-label">Senha:</label>
+                 <input type="password" id="senha" name="senha" class="form-control" required minlength="5" maxlength="15" placeholder="Ex: 123456">
+           </div>
+
+           <div class="box-item">
+              <button class="form-btn">Criar conta</button>
+           </div>
+        </form>
+
+        <h1>Acompanhamento Atual</h1>
+        <h2>Bem-Vindo Usuario X</h2>
+        <h3>Ganhos: 6.500R$ Meta:4.000R$</h3>
+        <img src="imagens/Exemplo de Ganhos.PNG" alt="">
+        <h3>Gastos: 2.000R$ Meta:3.000R$</h3>
+        <img src="imagens/Exemplo de Gastos.PNG" alt="">
+        <div class="box-item">
+            <button class="form-btn">Adicionar Informação</button>
+         </div>
+      </form>
+
+        <h1>Ajuste FINTEC </h1>
+        <h2>Metas Atuais</h2>
+        <h3>Meta de Ganhos:</h3>
+        <H3>4.000R$</H3>
+        <h3>Meta de Gastos:</h3>
+        <H3>3.000R$</H3>
+        <div class="box-item">
+            <button class="form-btn">Ajustar Metas</button>
+         </div>
+      </form>
+      <h3>Ganhos:</h3>
+      <H3>6.500R$</H3>
+      <div class="box-item">
+            <button class="form-btn">Adicionar Ganhos</button>
+         </div>
+      </form>
+      <h3>Gastos:</h3>
+      <H3>2.000R$</H3>
+      <div class="box-item">
+            <button class="form-btn">Adicionar Gastos</button>
+         </div>
+      </form>
+      <div class="box-item">
+            <button class="form-btn">Voltar</button>
+         </div>
+
+
+        <h1>Tabela de Ganhos</h1>
+        <ul>
+            <li>Pagamento Cleinte Z - 3.000R$ - 01/07/2023</li>
+            <li>Retorno de Alugel - 1.500R$ - 10/07/2023</li>
+            <li>Pagamento Cleinte X - 2.000R$ - 23/07/2023</li>
+        </ul>
+
+        <div class="box-item">
+            <label for="value" class="form-label">Observação:</label>
+            <input type="value" id="value" name="value" class="form-control" required placeholder="Ex: Pagamento Cliente Y">
+          </div>
+      
+          <div class="box-item">
+            <label for="money" class="form-label">Valor Ganho:</label>
+            <input type="money" id="money" name="money" class="form-control" required minlength="1" maxlength="150" placeholder="Ex: 4.000 R$">
+          </div>
+                  
+          <div class="box-item">
+            <label for="date" class="form-label">Data(d/m/a):</label>
+            <input type="date" id="date" name="date" class="form-control" required minlength="1" maxlength="150">
+          </div>
+
+        <div class="box-item">
+            <button class="form-btn">Adicionar</button>
+         </div>
+      </div>
+      <div class="box-item">
+         <button class="form-btn">Voltar</button>
+      </div>
+
+        <h1>Tabela de Gastos </h1>
+        <ul>
+            <li>Gastos com Material - 1.500R$ - 09/07/2023</li>
+            <li>Conta de Água - 100R$ - 05/07/2023</li>
+            <li>Mercado - 400R$ - 28/07/2023</li>
+        </ul>
+
+        <div class="box-item">
+            <label for="value" class="form-label">Observação:</label>
+            <input type="value" id="value" name="value" class="form-control" required placeholder="Ex: Conta de Luz">
+          </div>
+      
+          <div class="box-item">
+            <label for="money" class="form-label">Valor Gasto:</label>
+            <input type="money" id="money" name="money" class="form-control" required minlength="1" maxlength="150" placeholder="Ex: 4.000 R$">
+          </div>
+
+          <div class="box-item">
+            <label for="date" class="form-label">Data(d/m/a):</label>
+            <input type="date" id="date" name="date" class="form-control" required minlength="1" maxlength="150">
+          </div>
+
+          <div class="box-item">
+            <button class="form-btn">Adicionar</button>
+         </div>
+         <div class="box-item">
+            <button class="form-btn">Voltar</button>
+         </div>
+
+</body>
+</html>
